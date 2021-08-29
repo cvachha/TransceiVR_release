@@ -20,6 +20,7 @@ TransceiVR is a package that enables asymmetric communication within Unity VR pr
 ### Installation
 1. Open Unity Project (VR enabled optional) and Unity Package Manager
 2. Import `Unity RenderStreaming` from the Unity Package Manager in the editor (You may have to select `Show preview packages` under the `Advanced` tab)
+
 ![transceivr_img5](https://user-images.githubusercontent.com/9502341/131243448-799565a8-d048-4679-add6-c0be932fe980.PNG)
 
 4. Download this Github repository (web app and Unity package)
@@ -28,15 +29,20 @@ TransceiVR is a package that enables asymmetric communication within Unity VR pr
 7. Drag and drop the `TransceiVR_Utilities` prefab into your scene
 8. Position the External User Cameras in proper locations in your scene
 9. In the Hierarchy, move the `AnnotationWindow` gameobject under the hand controller (this can be placed anywhere)
+
 ![image](https://user-images.githubusercontent.com/9502341/131243486-ea85b241-ec1f-4a83-b1fb-c4a73ec5599a.png)
+
 10. Launch the web server (webserver.exe) and copy one of the urls in the launched windows in the Signalling URL in the 'RenderStreaming' gameObject. (For example: http://127.0.0.1/)
+
 ![transceivr_img3](https://user-images.githubusercontent.com/9502341/131243397-ca8b6054-414c-4d41-8e0b-37f28b422b0e.PNG)
+
 11. Navigate to the Signalling URL in a compatible web browser (such as Chrome)
 12. Run the scene in Unity and then start the client.
 
 > To use the object selection feature download the Quick Outline package from the Unity Asset Store: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
 
 The Client Manager Should look like this
+
 ![transceivr_img4 (4)](https://user-images.githubusercontent.com/9502341/131243554-1b59e903-1e58-4ddc-9f77-20cc9e658e36.PNG)
 
 For further details on the Render Streaming package and server refer to the Unity Render Streaming documentation [https://docs.unity3d.com/Packages/com.unity.renderstreaming@2.0/manual/index.html]
@@ -50,6 +56,10 @@ Each instance of the web client is assigned an ID with a respective camera.
 | Place Target | Places a target point where an external users clicks |
 | Annotate Window | Places an annotation on the 'annotation window' gameObject view |
 | Switch View | Switch between the external camera (only make changes on the client view |
+
+Annotation Window
+
+![image (1)](https://user-images.githubusercontent.com/9502341/131244440-110ff797-cd1f-465a-afc4-b9528442851a.png)
 
 Full Screen Mode
 ![transceivr_img2](https://user-images.githubusercontent.com/9502341/131243039-8b470266-a6e0-43af-b5b9-42cc44be460f.PNG)
