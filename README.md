@@ -32,8 +32,14 @@ TransceiVR is a package that enables asymmetric communication within Unity VR pr
 7. Install and import the Quick Outline package from the Unity Asset Store: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
 8. Open the TransceiVR folder and navigate to the `Prefabs` folder
 9. Drag and drop the `TransceiVR_Utilities` prefab into your scene
-10. Position the External User Cameras in proper locations in your scene
-11. In the Hierarchy, move the `AnnotationWindow` gameobject under the hand controller (this can be placed anywhere)
+10. Select the `AnnotationLayerQuad` prefab and add a new layer called `AnnotationPlaneLayer`
+
+![transceivr_addinglayer2](https://user-images.githubusercontent.com/9502341/132088310-17e00238-ab32-4de2-82cb-5499cc9287bd.PNG)
+![transceivr_addinglayer](https://user-images.githubusercontent.com/9502341/132088315-dd979767-e2ad-42dc-b78c-92bfc929af94.PNG)
+![transceivr_adding3](https://user-images.githubusercontent.com/9502341/132088317-878ffafd-33d7-44d1-9521-bf59c328fd34.PNG)
+
+11. Position the External User Cameras in proper locations in your scene
+12. In the Hierarchy, move the `AnnotationWindow` gameobject under the hand controller (this can be placed anywhere)
 
 ![image](https://user-images.githubusercontent.com/9502341/131243486-ea85b241-ec1f-4a83-b1fb-c4a73ec5599a.png)
 
