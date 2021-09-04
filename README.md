@@ -25,21 +25,24 @@ TransceiVR is a package that enables asymmetric communication within Unity VR pr
 
 4. Download this Github repository (web app and Unity package)
 5. Import the TransceiVR unity package (Assets > Import Package > Custom Package)
-6. Open the TransceiVR folder and navigate to the `Prefabs` folder
-7. Drag and drop the `TransceiVR_Utilities` prefab into your scene
-8. Position the External User Cameras in proper locations in your scene
-9. In the Hierarchy, move the `AnnotationWindow` gameobject under the hand controller (this can be placed anywhere)
+6. Install the Newtonsoft.JSON package from the package manager by selecting (+ > Add package from git URL) and entering https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm 
+
+![transceivr_5](https://user-images.githubusercontent.com/9502341/132085611-f005a379-607f-4c91-9393-348e15f8fba1.PNG)
+
+7. Install and import the Quick Outline package from the Unity Asset Store: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
+8. Open the TransceiVR folder and navigate to the `Prefabs` folder
+9. Drag and drop the `TransceiVR_Utilities` prefab into your scene
+10. Position the External User Cameras in proper locations in your scene
+11. In the Hierarchy, move the `AnnotationWindow` gameobject under the hand controller (this can be placed anywhere)
 
 ![image](https://user-images.githubusercontent.com/9502341/131243486-ea85b241-ec1f-4a83-b1fb-c4a73ec5599a.png)
 
-10. Launch the web server (webserver.exe) and copy one of the urls in the launched windows in the Signalling URL in the 'RenderStreaming' gameObject. (For example: http://127.0.0.1/)
+11. Launch the web server (webserver.exe) and copy one of the urls in the launched windows in the Signalling URL in the 'RenderStreaming' gameObject. (For example: http://127.0.0.1/)
 
 ![transceivr_img3](https://user-images.githubusercontent.com/9502341/131243397-ca8b6054-414c-4d41-8e0b-37f28b422b0e.PNG)
 
-11. Navigate to the Signalling URL in a compatible web browser (such as Chrome)
-12. Run the scene in Unity and then start the client.
-
-> To use the object selection feature download the Quick Outline package from the Unity Asset Store: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
+12. Navigate to the Signalling URL in a compatible web browser (such as Chrome)
+13. Run the scene in Unity and then start the client.
 
 The Client Manager Should look like this
 
